@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15 px;
+    margin-bottom: 20 px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15 px;
+    font-size: 24 px;
+    border-radius: 10 px;
+    display: block;
+}
+
+nav {
+    border-top: 5 px solid white;
+    border-bottom: 5 px solid white;
+    padding: 25 px 100 px 25 px 95 px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-link {
+    font-size: 24 px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36 px;
+    margin-top: 45 px;
+    margin-bottom: 40 px;
+}
+
+.post-text {
+    font-size: 24 px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100 px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15 px 45 px 30 px 45 px;
+    width: 400 px;
+    margin: 20 px;
+    position: relative;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24 px;
+    text-align: center;
+    padding: 10 px 75 px 10 px 75 px;
+    display: block;
+}
+
+.full-image {
+    margin: 100 px 0 px 100 px 0 px;
+}
+
+.social {
+    display: block;
+    width: 30 px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30 px 30 px 20 px 45 px;
+}
+
+.footer-text {
+    font-size: 24 px;
+    margin-right: 30 px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.soc{
+position: fixed;
+display: flex;
+padding: 3 px;
+justify-content: center;
+align-items: center;
+top: 220 px;
+right: 0 px;
+border-radius: 10 px;
+width: 100 px;
+height: 260 px;
+flex-direction: column;
+background-color: #850AE5;
+color: white;
+}
+.ww{
+position: absolute;
+width: 80 px;
+height: 90 px;
+top: 0 px;
+right:470 px;
+}
+.log{
+width: 50 px;
+height: 50 px;
+background-color: white;
+}
+.foot{
+width: 40 px;
+height: 50 px;
+}
+.fot{
+width: 40 px;
+height: 50 px;
+}
+.article-but:hover{
+    background-color: orange;
+}
+.post:hover{
+font-weight: bolder;
+
+}
+nav a:hover{
+color: orange;
+}
