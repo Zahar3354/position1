@@ -146,3 +146,12 @@ font-weight: bolder;
 nav a:hover{
 color: orange;
 }
+.post:hover>.post-text{
+transform: translateX (30 px);
+}
+.post:hover>h2{
+transform: translateX (30 px);
+}
+h2, .post-text{
+transition: transform 0.3 s;
+}
